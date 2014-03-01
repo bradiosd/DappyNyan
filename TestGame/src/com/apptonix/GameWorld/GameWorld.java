@@ -157,7 +157,7 @@ public class GameWorld {
 		score += increment;
 		
 		// Check if the score is divisible by 20 and below 80 so the gap doesn't get to 0
-		if ((score % 20) == 0 && score < 80) {
+		if ((score % 10) == 0 && score <= 40) {
 			scroller.getPipe1().setGapSize(scroller.getPipe1().getGapSize() - 10);
 			AssetLoader.levelup.play();
 		}
