@@ -230,7 +230,10 @@ public class GameRenderer {
         		frontGrass.getY(),
                 frontGrass.getWidth(),
                 frontGrass.getHeight());
-        		batcher.draw(grass, backGrass.getX(),
+        
+        batcher.draw(
+        		grass,
+        		backGrass.getX(),
         		backGrass.getY(),
                 backGrass.getWidth(),
                 backGrass.getHeight());
